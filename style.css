@@ -15,23 +15,42 @@ body{
     box-sizing: border-box;
 }
 
+.pixel{
+    image-rendering: pixelated;
+}
+
 
 #content{
     background-image: url("stars.gif");
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 50px;
     font-size: 20px;
     position: fixed;
 }
 
+#textbox{
+    height:100%;
+    width: 100%;
+    border: dotted 5px #ff00ff88;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #000000cc;
+}
+
+.centerer{
+    height: 55px;
+    flex-grow: 0;
+}
+
 #text{
     overflow-y: scroll;
-    height:100%;
+    flex-grow: 1;
     width: 100%;
     text-align: center;
     color: #ff00ff;
-    padding: 5px;
+    padding: 20px;
 }
 
 /* width */
@@ -41,7 +60,7 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px ##ff00ff00;
   border-radius: 10px;
 }
 
