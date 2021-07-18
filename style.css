@@ -57,6 +57,7 @@ a{
     margin-top: auto;
     margin-bottom: auto;
     padding: 15px;
+    white-space: nowrap;
 }
 
 #menu a{
@@ -78,12 +79,13 @@ a{
 
 .box{
     background: #00000080;
-    border: solid 4px;
+    border: solid 2px;
     border-image-source: url(spectrum.jpg);
     border-image-slice: 60 30;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     overflow: auto;
+    flex-grow: 1;
 }
 
 .holder{
