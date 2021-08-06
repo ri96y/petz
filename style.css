@@ -47,23 +47,21 @@ a{
 
 #menu{
     background: #00000080;
-    border: solid 4px;
-    border-image-source: url(spectrum.jpg);
+    border: solid 5px;
+    border-image-source: url("spectrum.jpg");
     border-image-slice: 60 30;
     width: 600px;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     padding: 15px;
-    white-space: nowrap;
 }
 
 #menu a{
     color: #ff00ff;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 }
 
 #mainView{
@@ -80,8 +78,8 @@ a{
 
 .box{
     background: #00000080;
-    border: solid 2px;
-    border-image-source: url(spectrum.jpg);
+    border: solid 3px;
+    border-image-source: url("spectrum.jpg");
     border-image-slice: 60 30;
     padding: 5px;
     margin: 10px;
